@@ -23,11 +23,11 @@
         <div class="deng"></div>
         <!-- 登录的页面 -->
         <div class="login-box">
-            <form class="layui-form" action="">
+            <form class="layui-form" id="form-login">
                 <!-- 用户名 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>
-                    <input type="text" name="title" required lay-verify="required" placeholder="请输入用户名"
+                    <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名"
                         autocomplete="off" class="layui-input">
                 </div>
                 <!-- 密码 -->
@@ -49,11 +49,11 @@
         </div>
         <!-- 注册的页面 -->
         <div class="reg-box">
-            <form class="layui-form" action="">
+            <form class="layui-form" id="form-reg">
                 <!-- 用户名 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>
-                    <input type="text" name="title" required lay-verify="required" placeholder="请输入用户名"
+                    <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名"
                         autocomplete="off" class="layui-input">
                 </div>
                 <!-- 密码 -->
@@ -82,6 +82,7 @@
     </div>
     <script src="assets/lib/layui(布局插件)/layui.all.js"></script>
     <script src="assets/lib/jquery.js"></script>
+    <script src="/assets/js/baseAPI.js"></script>
     <script src="assets/js/login.js"></script>
 
 </body>
